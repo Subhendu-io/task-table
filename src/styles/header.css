@@ -1,0 +1,51 @@
+.display-dropdown {
+  border: 1px solid rgb(212, 212, 212);
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 7px 12px;
+  box-shadow: #e6e6e6 0px 0px 5px 4px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  border-radius: 5px;
+  padding: 7px 20px;
+  box-shadow: #e6e6e6 0px 0px 5px 4px;
+}
+.nested-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.nested-menu p {
+  color: gray;
+  font-size: small;
+}
+
+.display-text {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.app-header {
+  background-color: white;
+  padding: 20px 40px;
+}
+
+.select-box {
+  border: 1px solid rgb(212, 212, 212);
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px 12px;
+  height: 32px;
+  font-size: 13px;
+  cursor: pointer;
+}

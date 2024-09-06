@@ -1,0 +1,34 @@
+.board-column {
+  width: 300px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.column-title-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.column-title-text {
+  flex: 1;
+}
+
+.column-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.column-title-icon {
+  padding: 10px;
+  margin-top: 3px;
+  display: flex;
+  gap: 10px;
+}
+
+.title-profile-image {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}

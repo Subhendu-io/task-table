@@ -1,0 +1,17 @@
+.app-board {
+  display: flex;
+  flex: 1;
+  width: 100%;
+}
+
+.board-container {
+  justify-content: space-around;
+  display: flex;
+  gap: 10px;
+  padding: 20px 40px;
+  background-color: #f4f5f8;
+  height: auto;
+  overflow-x: scroll;
+  width: 100%;
+  min-height: 100vh;
+}
